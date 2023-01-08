@@ -1,0 +1,71 @@
+.box{
+  width: 300px;
+  height: 300px;
+  margin: 170px;
+  margin-left: 300px;
+}
+.box-row{
+  display: flex;
+}
+.square{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.character{
+  background-color: transparent;
+  border: 0px;
+  height: 100px;
+  width: 98px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.character{
+  color:blue;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin: 27px 0 0 36px;
+}
+.dash-board{
+  color: aqua;
+  background-color: aqua;
+  background: cyan;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.start{
+  margin: 160px 50px 50px 650px;
+}
+.select-mode{
+  margin: 150px 50px 50px 470px;
+}
+.button-2{
+  margin: 15px 5px 5px 200px;
+}
+.game{
+  margin: -180px 0px 0px 220px;
+}
+.play-again{
+  margin: 20px 0px 0px 405px;
+  background-color: aqua;
+}
+.winner{
+  margin: 180px 0px 0px 280px;
+  color: blue;
+}
+.chance{
+  color: blue;
+  margin: 100px 0px 0px 320px ;
+}
+.single-player{
+  margin: -180px 0px 0px 220px;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+}
+.additional-button{
+  margin: -750px 0px 0px 131px;
+}
